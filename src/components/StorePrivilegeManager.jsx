@@ -27,7 +27,7 @@ const StorePrivilegeManager = () => {
   const [selectedStores, setSelectedStores] = useState([])
   const [batchAction, setBatchAction] = useState('')
 
-  const API_BASE_URL = 'https://main.d3qsbefcpv5hbl.amplifyapp.com/api'
+  const API_BASE_URL = 'https://wendy-backend1.onrender.com'
 
   const fetchStores = async () => {
     try {

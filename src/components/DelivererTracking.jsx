@@ -23,7 +23,7 @@ const DelivererTracking = () => {
   const [autoRefresh, setAutoRefresh] = useState(true)
   const [selectedDeliverer, setSelectedDeliverer] = useState(null)
 
-  const API_BASE_URL = 'https://main.d3qsbefcpv5hbl.amplifyapp.com/api'
+  const API_BASE_URL = 'https://wendy-backend1.onrender.com'
 
   const fetchDeliverersLocation = async () => {
     try {

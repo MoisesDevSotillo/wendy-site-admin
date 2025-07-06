@@ -57,7 +57,7 @@ function App() {
     sort_order: 0
   })
 
-  const API_BASE_URL = 'https://wendy-backend.onrender.com/api'
+  const API_BASE_URL = 'https://wendy-backend1.onrender.com/api'
 
   useEffect(() => {
     const fetchAdminData = async () => {
